@@ -1,0 +1,45 @@
+.container {
+    height: 100%; /* Asegura que ocupe toda la altura de la ventana */
+    background-color: white;
+    display: flex; /* Usamos flexbox para centrar el contenido */
+    flex-direction: column; /* Alinea los elementos en una columna */
+    justify-content: center; /* Centra verticalmente */
+    align-items: center; /* Centra horizontalmente */
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+
+
+.container2 {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    height: 100%; /* Asegura que ocupe toda la altura de la ventana */
+    background-color: white;
+    display: flex; /* Usamos flexbox para centrar el contenido */
+    flex-direction: column; /* Alinea los elementos en una columna */
+    justify-content: center; /* Centra verticalmente */
+    align-items: center; /* Centra horizontalmente */
+    text-align: center;
+    
+}
+
+.textos{
+    width: 80%;
+    margin-top: 4%;
+}
+
+@media (min-width: 1080px) {
+    .container{
+        padding-bottom: 2%;
+    }
+
+    .contenedorcards{
+        width: 80%;
+        display:flex;
+        gap: 10%;
+        align-items: center;
+        justify-content: center;
+    }
+
+}

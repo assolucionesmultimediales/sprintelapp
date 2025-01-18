@@ -1,0 +1,14 @@
+.container{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+@media (min-width: 1080px) {
+    .container{
+        display: flex;
+        gap: 6%;
+        padding-top:5%;
+
+    }
+
+}
